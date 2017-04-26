@@ -1,0 +1,7 @@
+
+<%= form_for @user do |f| %>
+  <%= f.text_field :name,         :placeholder => "User Name" %>
+  <%= f.text_field :email,        :placeholder => "email@email.com" %>
+  <%= f.password_field :password, :placeholder => "enter password" %>
+  <%= f.submit "Update" %>
+<% end %>
